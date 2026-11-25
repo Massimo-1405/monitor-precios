@@ -35,6 +35,19 @@ La primera corrida crea el historial. En las siguientes, el script avisa si alg�
 - `beautifulsoup4` para leer el HTML
 - `csv` de la librería estándar para el historial
 
+## Ejemplo de salida
+
+Cuando algún precio cambió respecto de la corrida anterior, el script lo informa así (cambios simulados para esta demostración):
+
+```
+Se guardaron 1000 libros en historial_precios.csv
+Cambios de precio detectados: 2
+- In Her Wake: bajó de 80.09 a 12.84 (-67.25)
+- A Murder in Time: bajó de 109.8 a 16.64 (-93.16)
+```
+
+En [`ejemplo_historial.csv`](ejemplo_historial.csv) hay una muestra del archivo que genera.
+
 ## Próximas mejoras
 
 - Exportar el historial a Excel
